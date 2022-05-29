@@ -1,0 +1,12 @@
+<mat-card> Username
+  <mat-form-field>
+    <textarea matInput cols="50" rows="1" [(ngModel)]= "enteredValue" ></textarea>
+  </mat-form-field>
+
+  <button
+    mat-raised-button
+    color = "primary"
+    (click)= "onAddPost()" > Login </button>
+</mat-card>
+
+
